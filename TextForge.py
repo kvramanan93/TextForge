@@ -293,7 +293,7 @@ class RNN(nn.Module):
         self.block_size = config.block_size
         self.vocab_size = config.vocab_size
         self.start = nn.Parameter(torch.zeros(1, config.n_embd2)) # the starting hidden state
-        self.wte = nn.Embedding(config.vocab_size, config.n_embd) # token embeddings table
+        self.wte = nn.Embedding(config.vocab_size, config.n_embd) # word/token embeddings table
         if cell_type == 'rnn':
             self.cell = RNNCell(config)
         elif cell_type == 'gru':
