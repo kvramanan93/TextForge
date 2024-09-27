@@ -487,7 +487,7 @@ def evaluate(model, dataset, batch_size=50, max_batches=None):
     return mean_loss
 
 # -----------------------------------------------------------------------------
-# helper functions for creating the training and test Datasets that emit words
+# helper functions to create training and test Datasets that emit words
 
 class CharDataset(Dataset):
 
@@ -559,8 +559,7 @@ def create_datasets(input_file):
 
 class InfiniteDataLoader:
     """
-    this is really hacky and I'm not proud of it, but there doesn't seem to be
-    a better way in PyTorch to just create an infinite dataloader?
+    To make sure that the code doesnt stop after training data is exhausted
     """
 
     def __init__(self, dataset, **kwargs):
