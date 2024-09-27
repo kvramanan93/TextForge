@@ -5,7 +5,7 @@
 - [x] **Bigram**: One character predicts the next using a counts lookup table.
 - [x] **MLP**: [Bengio et al. 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
 - [x] **RNN**: [Mikolov et al. 2010](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
-- [x] **GRU**: [Kyunghyun Cho et al. 2014](https://arxiv.org/abs/1409.1259)
+- [] **GRU**: [Kyunghyun Cho et al. 2014](https://arxiv.org/abs/1409.1259)
 - [x] **Transformer**: [Vaswani et al. 2017](https://arxiv.org/abs/1706.03762)
 
 ### Activation Function:
