@@ -1,12 +1,11 @@
 # TextForge
 
 Current implementation based on few key papers:
-
-[x] Bigram (One Character predicts the next one with a counts lookup table
-[X] MLP, [Bengio et al. 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
-[X] RNN, [Mikololv et al.2010](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
-[X] GRU, [Kyunghyun Cho et al. 2014](https://arxiv.org/abs/1409.1259)
-[X] Transformer, [Vaswani et al. 2017](https://arxiv.org/abs/1706.03762)
+- [x] **Bigram**: One character predicts the next using a counts lookup table.
+- [x] **MLP**: Based on Bengio et al. (2003).
+- [x] **RNN**: Based on Mikolov et al. (2010).
+- [x] **GRU**: Based on Kyunghyun Cho et al. (2014).
+- [x] **Transformer**: Based on Vaswani et al. (2017).
 
 
 ![{8C6E0AE0-930B-4F43-B22A-2A8A5E8420A5}](https://github.com/user-attachments/assets/3b5bd2dc-1e7f-4e31-94e1-49edb3f6252d)
